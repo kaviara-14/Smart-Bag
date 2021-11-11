@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Shoppy</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?
+    family=Alfa+Slab+One | Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>SMART<span>BAGGY</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="AboutUs.html">AboutUs</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:16px"></i> Cart</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+
+        <!--cards -->
+
+        <div class="card">
+            <div class="image">
+                <img src="images/tomato.jpg" alt="Tomato">
+            </div>
+            <div class="title">
+                <h2>Tomato</h2>
+            </div>
+            <div class="des">
+                <p>The Spicy and fresh Tomato </p>
+                <button id="tom">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/potato.jpg" alt="potato">
+            </div>
+            <div class="title">
+                <h2>
+                    Potato</h2>
+            </div>
+            <div class="des">
+                <p>The fresh and energetic Potato</p>
+                <button id="pot">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/cauliflower.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Cauliflower</h2>
+            </div>
+            <div class="des">
+                <p>The Healthy and Spicy Cauliflower</p>
+                <button id="cflower">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/carrot.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Carrot </h2>
+            </div>
+            <div class="des">
+                <p>The Fresh and Healthy Carrot</p>
+                <button id="carr">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/banana.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Banana</h2>
+            </div>
+            <div class="des">
+                <p>The Healthy and Spicy Banana.</p>
+                <button id="ban">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/apple.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Apple</h2>
+            </div>
+            <div class="des">
+                <p>The fresh energetic Apple </p>
+                <button id="aple">Learn More</button>
+            </div>
+        </div>
+        <!--cards -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/mango.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Mango</h2>
+            </div>
+            <div class="des">
+                <p>The Spicy and fruitful Mango</p>
+                <button id="man">Learn More</button>
+
+            </div>
+        </div>
+        <!--cards -->
+
+
+        <div class="card">
+
+            <div class="image">
+                <img src="images/orange.jpg">
+            </div>
+            <div class="title">
+                <h2>
+                    Orange</h2>
+            </div>
+            <div class="des">
+                <p>The Healthy and fruitful orange</p>
+                <button id="orng">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <script>
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCiroHdI-n3FpgzXQFdTs5Ina7VK-ftVaE",
+            authDomain: "smartybag-a12f2.firebaseapp.com",
+            databaseURL: "https://smartybag-a12f2-default-rtdb.firebaseio.com",
+            projectId: "smartybag-a12f2",
+            storageBucket: "smartybag-a12f2.appspot.com",
+            messagingSenderId: "248906064377",
+            appId: "1:248906064377:web:39899dfcb94a2ba0a35d28"
+          };
+        // Initialize Firebase
+        var app = firebase.initializeApp(firebaseConfig);
+        console.log(app.options);
+
+    </script>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
