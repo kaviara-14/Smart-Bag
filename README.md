@@ -2,4 +2,4 @@
 
 
 
-#Tech : Javascript,CSS,HTML & Firebase
+Tech : Javascript,CSS,HTML & Firebase
